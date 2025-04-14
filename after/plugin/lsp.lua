@@ -36,6 +36,7 @@ vim.api.nvim_create_autocmd('LspAttach', {
 require('lspconfig').gleam.setup({})
 require('lspconfig').rust_analyzer.setup({})
 require('lspconfig').jdtls.setup({})
+require('lspconfig').pyright.setup({})
 
 local cmp = require('cmp')
 local cmp_select = {behaviour = cmp.SelectBehavior.Select}
